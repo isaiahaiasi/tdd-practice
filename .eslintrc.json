@@ -5,12 +5,10 @@
     "es2021": true,
     "jest/globals": true
   },
-  "extends": ["airbnb-base", "plugin:prettier/reccomended"],
+  "extends": ["airbnb-base", "prettier"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "rules": {
-    "prettier/prettier": "error"
-  }
+  "rules": {}
 }
